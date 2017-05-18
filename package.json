@@ -1,0 +1,28 @@
+{
+  "name": "redrobotics",
+  "version": "1.0.0",
+  "description": "Red Robotics Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/101stArrow/redrobotics.git"
+  },
+  "author": "Eric Muir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/101stArrow/redrobotics/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lowdb": "^0.16.0",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "socket.io": "^1.7.3",
+    "uuid": "^3.0.1"
+  },
+  "homepage": "https://github.com/101stArrow/redrobotics#readme"
+}

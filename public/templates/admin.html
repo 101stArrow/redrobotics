@@ -1,0 +1,26 @@
+<style>
+    .btn-group-vertical {
+        width: 100%;
+        height: 85%;
+    }
+    .btn-group-vertical button {
+        height: 100%;
+        font-size: 7em;
+    }
+    .container {
+        width: 80%;
+    }
+</style>
+<br>
+<div class="container">
+    <h1>
+        Admin Panel
+    </h1>
+    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+        <button ng-click="startGame()" class="btn btn-lg btn-outline-success">Start game</button>
+        <button ng-click="redPlus()" class="btn btn-lg btn-outline-danger">+</button>
+        <button ng-click="redMinus()" class="btn btn-lg btn-outline-danger">-</button>
+        <button ng-click="bluePlus()" class="btn btn-lg btn-outline-primary">+</button>
+        <button ng-click="blueMinus()" class="btn btn-lg btn-outline-primary">-</button>
+    </div>
+</div>
